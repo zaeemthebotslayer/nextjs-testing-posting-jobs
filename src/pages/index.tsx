@@ -2,47 +2,50 @@ import axios from "axios";
 import Head from "next/head";
 
 export default function Home() {
-  // const structuredData = {
-  //   "@context": "https://schema.org/",
-  //   "@type": "JobPosting",
-  //   title: "Master Level Software Engineer",
-  //   description:
-  //     "<p>Tkturners aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas and cultures leads to the creation of better products and services. with zaeem awais</p>",
-  //   identifier: {
-  //     "@type": "PropertyValue",
-  //     name: "Google",
-  //     value: "1234567",
-  //   },
-  //   datePosted: "2024-01-09",
-  //   validThrough: "2024-03-18T00:00",
-  //   employmentType: "CONTRACTOR",
-  //   hiringOrganization: {
-  //     "@type": "Organization",
-  //     name: "Tkturners company",
-  //     sameAs: "https://tkturners.com",
-  //     logo: "https://i.ibb.co/0rHJT8H/attachment-83274209-e1494364212313.jpg",
-  //   },
-  //   jobLocation: {
-  //     "@type": "Place",
-  //     address: {
-  //       "@type": "PostalAddress",
-  //       streetAddress: "Street 10 Sector G",
-  //       addressLocality: "DHA Phase 6",
-  //       addressRegion: "LHR",
-  //       postalCode: "54810",
-  //       addressCountry: "PK",
-  //     },
-  //   },
-  //   baseSalary: {
-  //     "@type": "MonetaryAmount",
-  //     currency: "PKR",
-  //     value: {
-  //       "@type": "QuantitativeValue",
-  //       value: 103.0,
-  //       unitText: "HOUR",
-  //     },
-  //   },
-  // };
+  const structuredData =     {
+    "@context" : "https://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Senior Software Engineer",
+    "description" : "<p>tkturners is seeking a Full Stack Developer with expertise in both React JS and Angular. The successful candidate will be responsible for designing, developing, and implementing custom solutions using React and Angular development tools. This role involves active participation in detailed requirements, design, development, documentation, and integration efforts. The developer will collaborate with software development staff, business analysts, and project managers throughout multiple project life cycles. Strong communication skills, the ability to work independently, and a commitment to producing high-quality work are essential for success in this role..</p>",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "tkturners",
+      "value": "tkturnerstkmasters"
+    },
+    "datePosted" : "2024-01-09",
+    "validThrough" : "2024-03-18T00:00",
+    "applicantLocationRequirements": {
+      "@type": "Country",
+      "name": "PK"
+    },
+    "employmentType" : "FULL_TIME",
+    "hiringOrganization" : {
+      "@type" : "Organization",
+      "name" : "tkturners",
+      "sameAs" : "https://tkturners.com",
+      "logo" : "https://tkturners.com/wp-content/uploads/2022/09/333.png"
+    },
+    "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Street 10 Sector G",
+      "addressLocality": "DHA Phase 6",
+      "addressRegion": "LHR",
+      "postalCode": "54100",
+      "addressCountry": "PK"
+    }
+    },
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": 80.00,
+        "unitText": "HOUR"
+      }
+    }
+  }
 
   const handleNotifyUrl = async () => {
     try {
@@ -70,10 +73,10 @@ export default function Home() {
         <meta name="google-site-verification" content="TmCex4I1tc3seqUNViVB7RP4qJzFnCpCghZEa5cmYg0" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        /> */}
+        />
       </Head>
       <main>
         Home Page
