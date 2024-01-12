@@ -10,7 +10,7 @@ export default function Home() {
     "identifier": {
       "@type": "PropertyValue",
       "name": "tkturners",
-      "value": "tkturnerstkmasters"
+      "value": "tkturners"
     },
     "datePosted" : "2024-01-09",
     "validThrough" : "2024-03-18T00:00",
@@ -47,6 +47,9 @@ export default function Home() {
     }
   }
 
+  const handleApply = ()=>{
+
+  }
 
   return (
     <>
@@ -62,6 +65,49 @@ export default function Home() {
         />
       </Head>
       <main>
+        <section>
+          <h1>Senior Software Engineer</h1>
+          <p>
+            tkturners is seeking a Full Stack Developer with expertise in both React JS and Angular. The successful candidate will be responsible for designing, developing, and implementing custom solutions using React and Angular development tools. This role involves active participation in detailed requirements, design, development, documentation, and integration efforts. The developer will collaborate with software development staff, business analysts, and project managers throughout multiple project life cycles. Strong communication skills, the ability to work independently, and a commitment to producing high-quality work are essential for success in this role.
+          </p>
+          <div>
+            <a href="https://www.linkedin.com/jobs/view/1234567890" target="_blank" rel="noopener noreferrer">
+              <button>Apply Now</button>
+            </a>
+          </div>
+          <section>
+            <h2>Skills & Qualifications</h2>
+            <ul>
+              <li>Experience with React JS and Angular</li>
+              <li>Full Stack development expertise</li>
+              <li>Strong software development skills with a focus on Object-Oriented Programming (OOP)</li>
+              <li>Experience leading and managing a team of software engineers</li>
+              <li>Expertise in Programming and Web Applications</li>
+              <li>Bachelor's or Master's degree in Computer Science or related field</li>
+              <li>Excellent written and verbal communication skills</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Responsibilities</h2>
+            <ul>
+              <li>Design and develop custom solutions using React and Angular</li>
+              <li>Collaborate with software development staff, business analysts, and project managers</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Requirements</h2>
+            <ul>
+              <li>Strong communication skills</li>
+              <li>Ability to work independently</li>
+              <li>Commitment to producing high-quality work</li>
+              <li>3 to 5 years' post-graduation experience in developing web-based applications from scratch.</li>
+              <li>Sound concepts of OOP, Databases, Design/Architectural and Repository Patterns, etc.</li>
+              <li>Excellent English communication skills.</li>
+              <li>Must be capable enough to work independently/without supervision with clients based in the US and European regions.</li>
+              <li>Must be fluent in Requirement Gathering, Analysis, and Designing.</li>
+            </ul>
+          </section>
+        </section>
       </main>
     </>
   );
