@@ -66,7 +66,7 @@ export default function Home() {
             tkturners is seeking a Full Stack Developer with expertise in both React JS and Angular. The successful candidate will be responsible for designing, developing, and implementing custom solutions using React and Angular development tools. This role involves active participation in detailed requirements, design, development, documentation, and integration efforts. The developer will collaborate with software development staff, business analysts, and project managers throughout multiple project life cycles. Strong communication skills, the ability to work independently, and a commitment to producing high-quality work are essential for success in this role.
           </p>
           <div>
-            <a href="https://www.linkedin.com/jobs/view/1234567890" target="_blank" rel="noopener noreferrer">
+            <a href="/" target="_blank" rel="noopener noreferrer">
               <button>Apply Now</button>
             </a>
           </div>
