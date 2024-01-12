@@ -1,8 +1,7 @@
-import axios from "axios";
 import Head from "next/head";
 
 export default function Home() {
-  const structuredData =     {
+  const structuredData = {
     "@context" : "https://schema.org/",
     "@type" : "JobPosting",
     "title" : "Senior Software Engineer",
@@ -45,10 +44,6 @@ export default function Home() {
         "unitText": "HOUR"
       }
     }
-  }
-
-  const handleApply = ()=>{
-
   }
 
   return (
